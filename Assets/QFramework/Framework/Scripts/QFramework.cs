@@ -108,7 +108,7 @@ namespace QFramework
                 mArchitecture.mInited = true;
             }
         }
-
+        
         protected abstract void Init();
 
         private IOCContainer mContainer = new IOCContainer();
